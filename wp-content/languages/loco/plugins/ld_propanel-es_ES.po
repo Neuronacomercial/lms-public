@@ -1,0 +1,854 @@
+# Copyright (C) 2020 LearnDash
+# This file is distributed under the same license as the LearnDash ProPanel plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnDash ProPanel 2.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/learndash-"
+"propanel\n"
+"Last-Translator: Tierra Sabia\n"
+"Language-Team: Español de Argentina\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-15T11:50:49+00:00\n"
+"PO-Revision-Date: 2023-06-02 18:04+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: ld_propanel\n"
+"Language: es-AR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7"
+
+#: includes/class-ld-propanel.php:366
+msgid " to "
+msgstr "a"
+
+#: includes/class-ld-propanel-progress-chart.php:108
+msgid "< 100%"
+msgstr "< 100%"
+
+#: includes/class-ld-propanel-progress-chart.php:84
+msgid "< 20%"
+msgstr "< 20%"
+
+#: includes/class-ld-propanel-progress-chart.php:90
+msgid "< 40%"
+msgstr "< 40%"
+
+#: includes/class-ld-propanel-progress-chart.php:96
+msgid "< 60%"
+msgstr "< 60%"
+
+#: includes/class-ld-propanel-progress-chart.php:102
+msgid "< 80%"
+msgstr "< 80%"
+
+#: includes/gutenberg/blocks/ld-propanel-filters/index.js:85
+msgid "[ld_propanel widget=\"filtering\"] shortcode output shown here"
+msgstr ""
+"[ld_propanel widget=\"filtering\"] aquí se muestra el resultado del shortcode"
+
+#. translators: activity widget pagnation next page link
+#: templates/ld-propanel-activity-pagination-shortcode.php:18
+msgctxt "activity widget pagnation next page link"
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#. translators: activity widget pagnation previous page link
+#: templates/ld-propanel-activity-pagination-shortcode.php:11
+msgctxt "activity widget pagnation previous page link"
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#. translators: All Courses
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:106
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:109
+msgctxt "All Courses"
+msgid "All %s"
+msgstr "Todos los %s"
+
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:111
+msgid "All Groups"
+msgstr "Todos los grupos"
+
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:165
+msgid "All Users"
+msgstr "Todos los usuarios"
+
+#: templates/ld-propanel-overview.php:87
+msgid "Assignments Pending"
+msgstr "Tareas pendientes"
+
+#. translators: Chart orientation
+#: includes/class-ld-tinymce-courseinfo.php:116
+msgctxt "Chart orientation"
+msgid "Side by Side"
+msgstr "Lado a lado"
+
+#. translators: Chart orientation
+#: includes/class-ld-tinymce-courseinfo.php:114
+msgctxt "Chart orientation"
+msgid "Stacked (default)"
+msgstr "Apilado (predeterminado)"
+
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:257
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:264
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:273
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:282
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: includes/class-ld-propanel.php:368
+msgid "Click to toggle"
+msgstr "Haz Click para alternar"
+
+#: templates/reporting-filters/status/ld-propanel-reporting-filter-status.php:48
+msgid "Completed"
+msgstr "Completo"
+
+#: templates/ld-propanel-activity-rows.php:25
+msgid "Completed Date"
+msgstr "Fecha de finalización"
+
+#: templates/ld-propanel-activity-rows.php:23
+msgid "Completed Date (Duration)"
+msgstr "Fecha de finalización (duración)"
+
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:268
+msgid "Completed On"
+msgstr "Completado el "
+
+#. translators: Course.
+#: templates/ld-propanel-activity-report-header.php:10
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:275
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:286
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:298
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:358
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:368
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:377
+msgctxt "Course"
+msgid "%s"
+msgstr "%s"
+
+#. translators: Course
+#: templates/ld-propanel-activity-rows.php:130
+#: templates/ld-propanel-activity-rows.php:234
+msgctxt "Course"
+msgid "%s:"
+msgstr "%s:"
+
+#. translators: Course Progress
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:293
+msgctxt "Course completion data"
+msgid "Completed On"
+msgstr "Completado el "
+
+#. translators: Course completion date
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:372
+msgctxt "Course completion date"
+msgid "Completed On"
+msgstr "Completado el "
+
+#. translators: Course ID.
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:284
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:366
+msgctxt "Course ID"
+msgid "%s ID"
+msgstr "ID de %s:"
+
+#. translators: Course ID
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user-row.php:27
+msgctxt "Course ID"
+msgid "%s ID:"
+msgstr "ID de %s:"
+
+#. translators: Course Progress
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:277
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:291
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:300
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:360
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:370
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:379
+msgctxt "Course Progress"
+msgid "Progress"
+msgstr "Progreso"
+
+#. translators: Course status - All Statuses
+#: includes/class-ld-tinymce-courseinfo.php:94
+#: templates/reporting-filters/status/ld-propanel-reporting-filter-status.php:31
+msgctxt "Course status - All Statuses"
+msgid "All Statuses"
+msgstr "Todos los estados"
+
+#. translators: Course status - Completed
+#: includes/class-ld-propanel-progress-chart.php:51
+#: includes/class-ld-tinymce-courseinfo.php:100
+msgctxt "Course status - Completed"
+msgid "Completed"
+msgstr "Completado"
+
+#. translators: Course status - In Progress
+#: includes/class-ld-propanel-progress-chart.php:44
+#: includes/class-ld-tinymce-courseinfo.php:98
+msgctxt "Course status - In Progress"
+msgid "In Progress"
+msgstr "En curso"
+
+#. translators: Course status - Not Started
+#: includes/class-ld-propanel-progress-chart.php:37
+#: includes/class-ld-tinymce-courseinfo.php:96
+msgctxt "Course status - Not Started"
+msgid "Not Started"
+msgstr "Sin comenzar"
+
+#. translators: Course
+#: templates/ld-propanel-activity-rows.php:75
+#: templates/ld-propanel-activity-rows.php:305
+#: templates/ld-propanel-activity-rows.php:344
+msgctxt "Course:"
+msgid "%s:"
+msgstr "%s:"
+
+#: includes/class-ld-propanel-activity.php:239
+msgid "course_last_step_id"
+msgstr "course_last_step_id"
+
+#: includes/class-ld-propanel-activity.php:255
+msgid "course_last_step_title"
+msgstr "course_last_step_title"
+
+#: includes/class-ld-propanel-activity.php:247
+msgid "course_last_step_type"
+msgstr "course_last_step_type"
+
+#: includes/class-ld-propanel-activity.php:231
+msgid "course_total_time_on"
+msgstr "course_total_time_on"
+
+#. translators: Courses.
+#: templates/ld-propanel-overview.php:58
+msgctxt "Courses"
+msgid "%s"
+msgstr "%s"
+
+#: templates/ld-propanel-filtering.php:25
+#: templates/_ld-propanel-reporting.php:25
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: includes/class-ld-tinymce-courseinfo.php:109
+msgid "Display Chart"
+msgstr ""
+"Gráfico de visualización\n"
+
+#: includes/class-ld-tinymce-courseinfo.php:110
+msgid "Display Chart Orientation"
+msgstr "Orientación del gráfico de visualización"
+
+#: templates/ld-propanel-reporting-download-button.php:5
+msgid "Download"
+msgstr "Descargar"
+
+#. Description of the plugin
+msgid "Easily manage and view your LearnDash LMS activity."
+msgstr "Administre y vea fácilmente su actividad de LearnDash LMS."
+
+#: templates/ld-propanel-filtering.php:23
+#: templates/_ld-propanel-reporting.php:23
+msgid "Email"
+msgstr "Envíe un correo electrónico a"
+
+#: wp_autoupdate_propanel.php:307
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: templates/ld-propanel-filtering-filters.php:18
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: templates/ld-propanel-overview.php:98
+msgid "Essays Pending"
+msgstr "Trabajos pendientes"
+
+#. translators: Export Course Data
+#: templates/ld-propanel-activity-report-header.php:8
+#: templates/ld-propanel-reporting-download-button.php:3
+msgctxt "Export Course Data"
+msgid "Export %s Data"
+msgstr "Exportar datos de %s"
+
+#. translators: Export Quiz Data
+#: templates/ld-propanel-activity-report-header.php:13
+msgctxt "Export Quiz Data"
+msgid "Export %s Data"
+msgstr "Exportar datos de %s"
+
+#: templates/ld-propanel-activity-rows.php:92
+msgid "Failed"
+msgstr "Fallido"
+
+#: templates/ld-propanel-filtering-filters.php:39
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/ld-propanel-filtering-filters.php:8
+msgid "Filter By:"
+msgstr "Filtrar por:"
+
+#: includes/class-ld-tinymce-courseinfo.php:45
+msgid "Filter Groups"
+msgstr "Filtrar grupos"
+
+#: includes/class-ld-tinymce-courseinfo.php:71
+msgid "Filter Users"
+msgstr "Filtrar usuarios"
+
+#: includes/class-ld-tinymce-courseinfo.php:46
+msgid "Filter Widget by Group ID"
+msgstr "Filtrar Widget por ID de grupo "
+
+#: includes/class-ld-tinymce-courseinfo.php:72
+msgid "Filter Widget by User ID"
+msgstr "Filtrar Widget por ID de usuario"
+
+#: templates/ld-propanel-filtering.php:20
+#: templates/_ld-propanel-reporting.php:20
+msgid "Filters"
+msgstr "Filtros"
+
+#: templates/ld-propanel-activity-pagination.php:21
+#: templates/ld-propanel-reporting-pager.php:1
+msgid "First Page"
+msgstr "Primera página"
+
+#: templates/ld-propanel-filtering.php:24
+#: templates/_ld-propanel-reporting.php:24
+msgid "Full Page"
+msgstr "Página completa"
+
+#. translators: Gained Course Access
+#: templates/ld-propanel-activity-rows.php:184
+msgctxt "Gained Course Access"
+msgid "Gained %s Access:"
+msgstr "Acceso a %s obtenido:"
+
+#: includes/class-ld-propanel.php:362
+msgid "Hour"
+msgstr "Hora"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.learndash.com"
+msgstr "http://www.learndash.com"
+
+#: templates/reporting-filters/status/ld-propanel-reporting-filter-status.php:44
+msgid "In Progress"
+msgstr "En curso"
+
+#: templates/ld-propanel-progress-chart.php:18
+msgid "In Progress Breakdown"
+msgstr ""
+"Desglose en curso\n"
+
+#: templates/ld-propanel-activity-pagination.php:25
+#: templates/ld-propanel-reporting-pager.php:1
+msgid "Last Page"
+msgstr "Última página"
+
+#: includes/class-ld-propanel-activity.php:263
+msgid "last_login_date"
+msgstr "last_login_date"
+
+#. Author of the plugin
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: includes/class-ld-propanel.php:158
+msgid ""
+"LearnDash is required to be activated before LearnDash ProPanel can work "
+"properly."
+msgstr ""
+"Se requiere que LearnDash esté activado antes de que LearnDash ProPanel "
+"pueda funcionar correctamente."
+
+#. Plugin Name of the plugin
+msgid "LearnDash LMS - ProPanel"
+msgstr "LearnDash LMS - ProPanel"
+
+#: includes/class-ld-translations-propanel.php:17
+#: templates/ld-propanel-full-page.php:20
+msgid "LearnDash ProPanel"
+msgstr "LearnDash ProPanel"
+
+#: templates/ld-propanel-full-admin.php:7
+msgid "LearnDash ProPanel Reporting"
+msgstr "Informes de LearnDash ProPanel"
+
+#: learndash_propanel.php:81
+msgid "LearnDash ProPanel requires the following plugin(s) be active:"
+msgstr ""
+"LearnDash ProPanel requiere que los siguientes complementos estén activos:"
+
+#. translators: Lesson
+#: templates/ld-propanel-activity-rows.php:218
+msgctxt "Lesson:"
+msgid "%s:"
+msgstr "%s:"
+
+#: wp_autoupdate_propanel.php:309
+msgid "License Key:"
+msgstr "Clave de licencia:"
+
+#: wp_autoupdate_propanel.php:305
+msgid "License Settings"
+msgstr "Ajustes de licencia"
+
+#: includes/class-ld-propanel.php:363
+msgid "Minute"
+msgstr "Minuto"
+
+#: includes/class-ld-propanel.php:364 includes/class-ld-propanel.php:365
+msgid "Month"
+msgstr "Mes"
+
+#: templates/ld-propanel-activity-pagination.php:24
+#: templates/ld-propanel-reporting-pager.php:1
+msgid "Next Page"
+msgstr "Página siguiente"
+
+#: templates/ld-propanel-progress-chart.php:12
+msgid "No All-Progress items found"
+msgstr "No se han encontrado elementos de todo el progreso"
+
+#: templates/ld-propanel-progress-chart.php:20
+msgid "No In-Progress items found"
+msgstr "No se encontraron elementos en curso"
+
+#: templates/ld-propanel-no-results.php:8
+#: templates/ld-propanel-reporting-no-results.php:7
+msgid "No Results Found."
+msgstr "No hay resultados"
+
+#: templates/ld-propanel-activity-rows.php:358
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course-row.php:47
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group-row.php:71
+#: templates/reporting-filters/status/ld-propanel-reporting-filter-status.php:40
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user-row.php:40
+msgid "Not Started"
+msgstr "Sin comenzar"
+
+#. translators: Number of completed course steps.
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course-row.php:42
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group-row.php:63
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user-row.php:36
+msgctxt "Number of completed course steps"
+msgid "%1$d of %2$d steps completed"
+msgstr "%1$d de %2$d pasos completos"
+
+#: templates/ld-propanel-activity-pagination.php:23
+#: templates/ld-propanel-reporting-pager.php:1
+msgid "page"
+msgstr "página"
+
+#. translators: Pagination for Widget output
+#: includes/class-ld-tinymce-courseinfo.php:125
+msgctxt "Pagination for Widget output"
+msgid "Per Page"
+msgstr "Por página"
+
+#: templates/ld-propanel-activity-rows.php:92
+msgid "Passed"
+msgstr "Aprobado"
+
+#: templates/ld-propanel-activity-rows.php:90
+msgid "Pending"
+msgstr "Pendiente"
+
+#: templates/ld-propanel-filtering-filters.php:24
+msgid "Per Page:"
+msgstr "Por página:"
+
+#. translators: placeholder: count users.
+#: includes/class-ld-propanel-reporting.php:294
+msgctxt "placeholder: count users."
+msgid "Email sent to %d destinations"
+msgstr "Correo electrónico enviado a %d destinos"
+
+#. translators: placeholder: Course.
+#: includes/class-ld-tinymce-courseinfo.php:56
+msgctxt "placeholder: Course"
+msgid "Filter %s"
+msgstr "Filtrar %s"
+
+#. translators: placeholder: Course.
+#: includes/class-ld-tinymce-courseinfo.php:82
+msgctxt "placeholder: Course"
+msgid "Filter %s Status"
+msgstr "Estado de filtro de %s"
+
+#. translators: placeholder: Course.
+#: includes/class-ld-tinymce-courseinfo.php:61
+msgctxt "placeholder: Course"
+msgid "Filter Widget by %s ID"
+msgstr "Filtrar Widget por ID de %s "
+
+#. translators: placeholder: Course.
+#: includes/class-ld-tinymce-courseinfo.php:87
+msgctxt "placeholder: Course"
+msgid "Filter Widget by %s Status"
+msgstr "Filtrar Widget por estado de %s "
+
+#. translators: placeholder: Course ID.
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group-row.php:35
+msgctxt "placeholder: Course ID"
+msgid "%s ID:"
+msgstr "ID de %s:"
+
+#. translators: placeholder: email count.
+#: includes/class-ld-propanel-filtering.php:295
+msgctxt "placeholder: email count"
+msgid "Email sent to %d destinations"
+msgstr "Correo electrónico enviado a %d destinos"
+
+#. translators: placeholder: error message
+#: includes/class-ld-propanel-reporting.php:309
+msgctxt "placeholder: error message"
+msgid ""
+"We could not send the email successfully. Please try again or check with "
+"your hosting provider.\n"
+"Error: %s"
+msgstr ""
+"No pudimos enviar el correo electrónico correctamente. Vuelva a intentarlo o "
+"consulte con su proveedor de alojamiento.\n"
+"Error: %s"
+
+#. translators: placeholder: error messages
+#: includes/class-ld-propanel-filtering.php:310
+msgctxt "placeholder: error messages"
+msgid ""
+"We could not send the email successfully. Please try again or check with "
+"your hosting provider.\n"
+"Error: %s"
+msgstr ""
+"No pudimos enviar el correo electrónico correctamente. Vuelva a intentarlo o "
+"consulte con su proveedor de alojamiento.\n"
+"Error: %s"
+
+#. translators: placeholder: Quiz.
+#: includes/class-ld-propanel-activity.php:710
+msgctxt "placeholder: Quiz"
+msgid "View %s Statistics"
+msgstr "Ver estadísticas de %s"
+
+#. translators: placeholder: Title of current post
+#: templates/ld-propanel-activity-rows.php:63
+#: templates/ld-propanel-activity-rows.php:79
+#: templates/ld-propanel-activity-rows.php:135
+#: templates/ld-propanel-activity-rows.php:222
+#: templates/ld-propanel-activity-rows.php:238
+#: templates/ld-propanel-activity-rows.php:293
+#: templates/ld-propanel-activity-rows.php:309
+#: templates/ld-propanel-activity-rows.php:348
+msgctxt "placeholder: Title of current post"
+msgid " (edit<span class=\"screen-reader-text\"> \"%s\"</span>)"
+msgstr " (editar<span class=\"screen-reader-text\"> \"%s\"</span>)"
+
+#. translators: placeholder: User Email.
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group-row.php:39
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group-row.php:53
+msgctxt "placeholder: User Email"
+msgid "Compose a new mail to %s"
+msgstr "Redactar nuevo mail para %s"
+
+#. translators: placeholder: user email.
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course-row.php:29
+msgctxt "placeholder: user email"
+msgid "Compose a new mail to %s"
+msgstr "Redactar nuevo mail para %s"
+
+#: templates/ld-propanel-reporting-choose-filter.php:8
+msgid "Please choose a filter in ProPanel Reporting."
+msgstr "Elija un filtro en ProPanel Reporting."
+
+#: templates/ld-propanel-filtering-emails.php:8
+msgid "Please select user(s) to send an email to."
+msgstr "Seleccione los usuarios a los que enviar un correo electrónico."
+
+#: templates/ld-propanel-activity-rows.php:103
+msgid "Points:"
+msgstr "Puntos:"
+
+#: includes/gutenberg/blocks/ld-propanel-filters/index.js:59
+msgid "Preview"
+msgstr "Avance"
+
+#: templates/ld-propanel-activity-pagination.php:22
+#: templates/ld-propanel-reporting-pager.php:1
+msgid "Previous Page"
+msgstr "Pagina anterior"
+
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:259
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:267
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:274
+msgid "Progress"
+msgstr "Progreso"
+
+#: templates/ld-propanel-progress-chart.php:10
+msgid "Progress Distribution"
+msgstr "Distribución de progreso"
+
+#: includes/class-ld-tinymce-courseinfo.php:9
+msgid "ProPanel"
+msgstr "ProPanel"
+
+#: includes/class-ld-propanel-activity.php:26
+msgid "ProPanel Activity"
+msgstr "Actividad de ProPanel"
+
+#: includes/class-ld-propanel-base-widget.php:85
+msgid "ProPanel Email: AJAX submission could not complete, please try again."
+msgstr ""
+"Correo electrónico de ProPanel: No se pudo completar el envío de AJAX, "
+"inténtelo de nuevo."
+
+#: includes/class-ld-propanel-filtering.php:31
+#: templates/ld-propanel-full-page.php:54
+msgid "ProPanel Filtering"
+msgstr "Filtrado ProPanel"
+
+#: learndash_propanel.php:142
+msgid "ProPanel License"
+msgstr "Licencia ProPanel"
+
+#: includes/class-ld-propanel-overview.php:27
+#: templates/ld-propanel-full-page.php:48
+msgid "ProPanel Overview"
+msgstr "Descripción general de ProPanel"
+
+#: templates/ld-propanel-full-page.php:41
+msgid "ProPanel Progress Activity"
+msgstr "Actividad de progreso de ProPanel"
+
+#: includes/class-ld-propanel-progress-chart.php:27
+#: templates/ld-propanel-full-page.php:60
+msgid "ProPanel Progress Chart"
+msgstr "Tabla de progreso de ProPanel"
+
+#: includes/class-ld-propanel-reporting.php:40
+#: includes/class-ld-propanel.php:69 includes/class-ld-propanel.php:70
+#: templates/ld-propanel-full-page.php:35
+msgid "ProPanel Reporting"
+msgstr "Informes ProPanel"
+
+#. translators: ProPanel Widget
+#: includes/class-ld-tinymce-courseinfo.php:127
+msgctxt "ProPanel Widget"
+msgid "Pagination for Widget output"
+msgstr "Paginación para la salida del widget"
+
+#. translators: ProPanel Widget
+#: includes/class-ld-tinymce-courseinfo.php:23
+msgctxt "ProPanel Widget"
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:36
+msgctxt "ProPanel widget shortcode"
+msgid "Activity Widget"
+msgstr "Widget de actividad"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:32
+msgctxt "ProPanel widget shortcode"
+msgid "Filtering Widget"
+msgstr "Filtrando widget"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:28
+msgctxt "ProPanel widget shortcode"
+msgid "Link to ProPanel Full Page"
+msgstr "Enlace a la página completa de ProPanel"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:30
+msgctxt "ProPanel widget shortcode"
+msgid "Overview Widget"
+msgstr "Widget de descripción general"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:38
+msgctxt "ProPanel widget shortcode"
+msgid "Progress Chart Widget"
+msgstr "Widget de gráfico de progreso"
+
+#. translators: ProPanel widget shortcode
+#: includes/class-ld-tinymce-courseinfo.php:34
+msgctxt "ProPanel widget shortcode"
+msgid "Reporting Widget"
+msgstr "Widget de informes"
+
+#. translators: Quiz
+#: templates/ld-propanel-activity-report-header.php:15
+msgctxt "Quiz"
+msgid "%s"
+msgstr "%s"
+
+#. translators: Quiz completed
+#: templates/ld-propanel-activity-rows.php:58
+msgctxt "Quiz Completed:"
+msgid "%s Completed:"
+msgstr "%s Completado:"
+
+#: templates/ld-propanel-filtering-emails.php:13
+#: templates/ld-propanel-filtering-filters.php:39
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: templates/ld-propanel-activity-rows.php:90
+#: templates/ld-propanel-activity-rows.php:92
+#: templates/ld-propanel-activity-rows.php:358
+msgid "Result:"
+msgstr "Resultado:"
+
+#: includes/class-ld-propanel.php:367
+msgid "Scroll to increment"
+msgstr "Desplácese para incrementar"
+
+#. translators: Search Courses
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:9
+msgctxt "Search Courses"
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:7
+msgid "Search Groups"
+msgstr "Buscar grupos"
+
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:7
+msgid "Search Users"
+msgstr "Buscar usuarios"
+
+#: templates/ld-propanel-activity-rows.php:44
+#: templates/ld-propanel-activity-rows.php:115
+#: templates/ld-propanel-activity-rows.php:162
+#: templates/ld-propanel-activity-rows.php:196
+#: templates/ld-propanel-activity-rows.php:267
+#: templates/ld-propanel-activity-rows.php:339
+msgid "See User Progress"
+msgstr "Ver el progreso del usuario"
+
+#: templates/reporting-filters/users/ld-propanel-reporting-filter-user.php:165
+msgid "Select User"
+msgstr "Seleccionar usuario"
+
+#. translators: ProPanel Widget
+#: includes/class-ld-tinymce-courseinfo.php:24
+msgid "Select which ProPanel widget to dislay"
+msgstr "Seleccione qué widget de ProPanel mostrar"
+
+#: templates/ld-propanel-filtering-emails.php:13
+msgid "Send"
+msgstr "Enviar"
+
+#: templates/ld-propanel-filtering-emails.php:15
+msgid "Sending..."
+msgstr "Enviando..."
+
+#: wp_autoupdate_propanel.php:290
+msgid "settings saved."
+msgstr "Se guardó la configuración."
+
+#: includes/gutenberg/blocks/ld-propanel-filters/index.js:63
+msgid "Show Preview"
+msgstr "Mostrar vista previa"
+
+#: includes/class-ld-propanel-shortcodes.php:57
+msgid "Show ProPanel Full Page"
+msgstr "Mostrar página completa de ProPanel"
+
+#: templates/ld-propanel-filtering-filters.php:15
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: templates/ld-propanel-activity-rows.php:37
+msgid "Started Date"
+msgstr "Fecha de inicio"
+
+#: templates/ld-propanel-activity-rows.php:35
+msgid "Started Date (Duration)"
+msgstr "Fecha de inicio (duración)"
+
+#: includes/class-ld-propanel-activity.php:712
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: includes/gutenberg/blocks/ld-propanel-filters/index.js:36
+msgid "This shortcode adds the ProPanel Filters widget any page"
+msgstr ""
+"Este shortcode agrega el widget de filtros ProPanel en cualquier página"
+
+#: includes/class-ld-tinymce-courseinfo.php:11
+msgid "This shortcode displays widgets from ProPanel."
+msgstr "Este código abreviado muestra widgets de ProPanel."
+
+#. translators: Topic
+#: templates/ld-propanel-activity-rows.php:289
+msgctxt "Topic"
+msgid "%s:"
+msgstr "%s:"
+
+#: templates/ld-propanel-overview.php:20
+msgid "Total Students"
+msgstr "Total de estudiantes"
+
+#: wp_autoupdate_propanel.php:313
+msgid "Update License"
+msgstr "Actualizar licencia"
+
+#. translators: User ID
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:258
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:266
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:273
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:289
+msgid "User"
+msgstr "Usuario"
+
+#: templates/reporting-filters/courses/ld-propanel-reporting-filter-course.php:265
+msgid "User ID"
+msgstr "ID de usuario"
+
+#. translators: User ID
+#: templates/reporting-filters/groups/ld-propanel-reporting-filter-group.php:288
+msgctxt "User ID"
+msgid "U-ID"
+msgstr "U-ID"
+
+#: includes/class-ld-propanel-filtering.php:316
+#: includes/class-ld-propanel-reporting.php:317
+msgid "We do not have any email addresses to send your message to."
+msgstr ""
+"No tenemos ninguna dirección de correo electrónico a la que enviar su "
+"mensaje."
+
+#: includes/class-ld-tinymce-courseinfo.php:169
+msgid ""
+"When using the \"reporting\" or \"progress_chart\" widget shortcodes. A "
+"selection from the Group, Course or User filters is required unless also "
+"using the \"filtering\" widget shortcode on the same page."
+msgstr ""
+"Cuando se utilizan los códigos abreviados del widget \"reporting\" o "
+"\"progress_chart\". Se requiere una selección de los filtros de Grupo, Curso "
+"o Usuario, a menos que también se utilice el código abreviado del widget de "
+"\"filtrado\" en la misma página."
+
+#: includes/class-ld-propanel.php:369
+msgid "Wk"
+msgstr "Wk"
+
+#: includes/class-ld-propanel.php:370
+msgid "Year"
+msgstr "Año"
+
+#: templates/ld-propanel-filtering-emails.php:12
+msgid "Your Message"
+msgstr "Tu mensaje"

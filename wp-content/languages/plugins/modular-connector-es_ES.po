@@ -1,0 +1,250 @@
+# Translation of Plugins - Modular DS: Manage all your websites from a single dashboard - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Modular DS: Manage all your websites from a single dashboard - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-12 06:20:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Modular DS: Manage all your websites from a single dashboard - Stable (latest release)\n"
+
+#: src/app/WordPress/Admin.php:81
+msgid "We are performing scheduled maintenance work. We should be back online shortly."
+msgstr "Estamos realizando tareas programadas de mantenimiento. Deberíamos estar de vuelta en breve."
+
+#: src/app/WordPress/Admin.php:80
+msgid "Website Under Maintenance"
+msgstr "Web en mantenimiento"
+
+#: src/resources/views/settings/tab-layout.blade.php:19
+msgid "Health"
+msgstr "Salud"
+
+#: src/resources/views/settings/health.blade.php:81
+msgid "Reset all"
+msgstr "Restablecer todo"
+
+#: src/resources/views/settings/health.blade.php:71
+msgid "Reset all settings"
+msgstr "Restablecer todos los ajustes"
+
+#: src/resources/views/settings/health.blade.php:44
+msgid "Cache"
+msgstr "Caché"
+
+#: src/resources/views/notices/pending.blade.php:7
+msgid "You have started the connection process with ModularDS but it is not complete yet. Learn how to connect it %s."
+msgstr "Has iniciado el proceso de conexión con Modular DS pero todavía no está completo. Aprende cómo conectar %s."
+
+#: src/resources/views/notices/pending.blade.php:4
+msgid "Connection to Modular DS pending"
+msgstr "Conexión pendiente a Modular DS"
+
+#: src/resources/views/notices/disconnected.blade.php:6
+msgid "This website hasn't been connected to Modular DS yet or has lost connection. Learn how to connect it %s."
+msgstr "Esta web no se ha conectado todavía con Modular DS o ha perdido la conexión. Aprende cómo conectarla %s."
+
+#: src/resources/views/notices/disconnected.blade.php:4
+msgid "Connect your website to Modular DS"
+msgstr "Conecta tu web con Modular DS"
+
+#: src/resources/views/settings/health.blade.php:35
+#: src/resources/views/settings/health.blade.php:63
+msgid "Clear"
+msgstr "Vaciar"
+
+#: src/resources/views/settings/health.blade.php:5
+msgid "Queues"
+msgstr "Colas"
+
+#: src/resources/views/settings/logs.blade.php:33
+msgid "Download"
+msgstr "Descarga"
+
+#: src/resources/views/settings/logs.blade.php:13
+msgid "There are no logs to display."
+msgstr "No hay registros que mostrar."
+
+#: src/resources/views/settings/logs.blade.php:9
+msgid "Stored logs:"
+msgstr "Registros almacenados:"
+
+#: src/resources/views/settings/layout.blade.php:18
+#: src/resources/views/settings/tab-layout.blade.php:18
+msgid "Logs"
+msgstr "Registros"
+
+#: src/resources/views/settings/layout.blade.php:17
+#: src/resources/views/settings/tab-layout.blade.php:17
+msgid "Connection Manager"
+msgstr "Gestor de conexiones"
+
+#: src/resources/views/notices/disconnected.blade.php:17
+#: src/resources/views/notices/pending.blade.php:19
+msgid "Connect now"
+msgstr "Conectar ahora"
+
+#: src/resources/views/notices/disconnected.blade.php:10
+#: src/resources/views/notices/pending.blade.php:11
+msgid "here"
+msgstr "aquí"
+
+#: src/resources/views/notices/disconnected.blade.php:9
+#: src/resources/views/notices/pending.blade.php:10
+msgid "https://help.modulards.com/en/article/how-to-add-a-website-to-the-modular-panel-iso2mc/"
+msgstr "https://help.modulards.com/en/article/how-to-add-a-website-to-the-modular-panel-iso2mc/"
+
+#: src/app/WordPress/Settings.php:196
+msgid "The selected log file does not exist."
+msgstr "El archivo de registro seleccionado no existe."
+
+#: src/app/WordPress/Settings.php:188
+msgid "No log file selected for download."
+msgstr "No se ha seleccionado ningún archivo de registro para su descarga."
+
+#: src/resources/views/settings/pending.blade.php:9
+msgid "Click on \"Connect\"."
+msgstr "Haz clic en «Conectar»."
+
+#: src/resources/views/settings/pending.blade.php:8
+msgid "Open the website you are connecting."
+msgstr "Abre el sitio web que estás conectando."
+
+#: src/resources/views/settings/disconnected.blade.php:12
+msgid "Go back to Modular DS and click \"Connect\"."
+msgstr "Vuelve a Modular DS y haz clic en «Conectar»."
+
+#: src/resources/views/parts/form.blade.php:64
+msgid "Save"
+msgstr "Guardar"
+
+#: src/resources/views/parts/form.blade.php:60
+msgid "Data updated!"
+msgstr "¡Datos actualizados!"
+
+#: src/resources/views/parts/form.blade.php:22
+msgid "It seems that the values are not correct. Please try again."
+msgstr "Parece que los valores no son correctos. Por favor, inténtalo de nuevo."
+
+#: src/resources/views/parts/connection_info.blade.php:12
+#: src/resources/views/parts/connection_info.blade.php:25
+msgid "N/A"
+msgstr "N/A"
+
+#. Description of the plugin
+#: init.php
+msgid "Connect and manage all your WordPress websites in an easier and more efficient way. Backups, bulk updates, Uptime Monitor, statistics, security, performance, client reports and much more."
+msgstr "Conecta y gestiona todos tus sitios de WordPress de forma más fácil y eficaz. Copias de seguridad, actualizaciones en lote, seguimiento de tiempo de actividad, estadísticas, seguridad, rendimiento, informes de clientes y mucho más."
+
+#: src/resources/views/parts/form.blade.php:64
+msgid "Update"
+msgstr "Actualizar"
+
+#: src/resources/views/parts/form.blade.php:53
+msgid "Treat your secret key as if it were a password. Make sure it is kept out of any version control system you may be using."
+msgstr "Trata tu clave secreta como si fuera una contraseña. Asegúrate de mantenerla fuera de cualquier sistema de control de versiones que utilices."
+
+#: src/resources/views/parts/form.blade.php:41
+msgid "Secret key"
+msgstr "Clave secreta"
+
+#: src/resources/views/parts/form.blade.php:8
+msgid "These keys will allow us to authenticate API requests securely, without storing your password. The keys can be easily overridden."
+msgstr "Estas claves nos permitirán autenticar las solicitudes de la API de forma segura, sin guardar tu contraseña. Las claves pueden anularse fácilmente."
+
+#: src/resources/views/parts/form.blade.php:5
+msgid "Connect your website"
+msgstr "Conecta tu sitio web"
+
+#: src/resources/views/parts/connection_info.blade.php:19
+msgid "Last used"
+msgstr "Último uso"
+
+#: src/resources/views/parts/connection_info.blade.php:6
+msgid "Connected on"
+msgstr "Conectado el"
+
+#: src/resources/views/parts/form.blade.php:27
+msgid "Public key"
+msgstr "Clave pública"
+
+#: src/resources/views/settings/pending.blade.php:7
+msgid "Return to your %s account."
+msgstr "Vuelve a tu cuenta de %s."
+
+#: src/resources/views/settings/pending.blade.php:4
+msgid "Just one more thing! We are almost done..."
+msgstr "¡Solo una cosa más! Ya casi hemos terminado..."
+
+#: src/resources/views/settings/disconnected.blade.php:11
+msgid "Paste the connection keys in the form below and save."
+msgstr "Pega las claves de conexión en el siguiente formulario y guarda."
+
+#: src/resources/views/settings/disconnected.blade.php:10
+msgid "Copy the public key and secret key and return to this page."
+msgstr "Copia la clave pública y la clave secreta y regresa a esta página."
+
+#: src/resources/views/settings/disconnected.blade.php:9
+msgid "Enter the name and URL of this website."
+msgstr "Introduce el nombre y la URL de este sitio web."
+
+#: src/resources/views/settings/disconnected.blade.php:4
+msgid "Manual Mode"
+msgstr "Modo manual"
+
+#: src/resources/views/settings/disconnected.blade.php:20
+msgid "The system will take care of everything."
+msgstr "El sistema se encargará de todo."
+
+#: src/resources/views/settings/disconnected.blade.php:19
+msgid "Enter the URL, administrator's username and password of this website."
+msgstr "Introduce la URL, el nombre de usuario del administrador y la contraseña de este sitio web."
+
+#: src/resources/views/settings/disconnected.blade.php:8
+#: src/resources/views/settings/disconnected.blade.php:18
+msgid "Click on the \"New Website\" button."
+msgstr "Haz clic en el botón «Añadir nueva web»."
+
+#: src/resources/views/settings/disconnected.blade.php:7
+#: src/resources/views/settings/disconnected.blade.php:17
+msgid "Log in to your %s account."
+msgstr "Accede a tu cuenta de %s."
+
+#: src/resources/views/settings/disconnected.blade.php:15
+msgid "Automatic Mode"
+msgstr "Modo automático"
+
+#: src/app/WordPress/Settings.php:42
+msgid "%s - Connection manager"
+msgstr "%s - Gestor de conexiones"
+
+#: src/app/Services/Manager/ManagerTranslation.php:37
+msgid "New translations are available."
+msgstr "Hay nuevas traducciones disponibles."
+
+#: src/app/Providers/ModularConnectorServiceProvider.php:52
+msgid "Connection manager"
+msgstr "Gestor de conexiones"
+
+#. Author URI of the plugin
+#: init.php
+msgid "https://modulards.com/"
+msgstr "https://modulards.com/"
+
+#. Author of the plugin
+#: init.php
+msgid "Modular DS"
+msgstr "Modular DS"
+
+#. Plugin URI of the plugin
+#: init.php
+msgid "https://modulards.com/herramienta-gestion-webs/"
+msgstr "https://modulards.com/herramienta-gestion-webs/"
+
+#. Plugin Name of the plugin
+#: init.php
+msgid "Modular Connector"
+msgstr "Modular Connector"

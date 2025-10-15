@@ -1,0 +1,16 @@
+[2025-10-03 12:28:06] production.ERROR: InvalidArgumentException: Disk [safe_upgrades] does not have a configured driver. in /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/illuminate/filesystem/FilesystemManager.php:116
+Stack trace:
+#0 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/illuminate/filesystem/FilesystemManager.php(101): Modular\ConnectorDependencies\Illuminate\Filesystem\FilesystemManager->resolve()
+#1 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/illuminate/filesystem/FilesystemManager.php(71): Modular\ConnectorDependencies\Illuminate\Filesystem\FilesystemManager->get()
+#2 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/illuminate/support/Facades/Facade.php(222): Modular\ConnectorDependencies\Illuminate\Filesystem\FilesystemManager->disk()
+#3 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/src/app/Backups/Console/AutoCleanUpCommand.php(73): Modular\ConnectorDependencies\Illuminate\Support\Facades\Facade::__callStatic()
+#4 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/ares/framework/src/Foundation/Console/Scheduling/Event.php(36): Modular\Connector\Backups\Console\AutoCleanUpCommand->handle()
+#5 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/ares/framework/src/Foundation/Console/Scheduling/Event.php(22): Modular\ConnectorDependencies\Ares\Framework\Foundation\Console\Scheduling\Event->runCommandInForeground()
+#6 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/ares/framework/src/Foundation/Console/Scheduling/ScheduleRunCommand.php(103): Modular\ConnectorDependencies\Ares\Framework\Foundation\Console\Scheduling\Event->run()
+#7 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/ares/framework/src/Foundation/Console/Scheduling/ScheduleRunCommand.php(141): Modular\ConnectorDependencies\Ares\Framework\Foundation\Console\Scheduling\ScheduleRunCommand->runEvent()
+#8 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-content/plugins/modular-connector/vendor/ares/framework/src/Foundation/Http/Kernel.php(77): Modular\ConnectorDependencies\Ares\Framework\Foundation\Console\Scheduling\ScheduleRunCommand->handle()
+#9 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-includes/class-wp-hook.php(324): Modular\ConnectorDependencies\Ares\Framework\Foundation\Http\Kernel->Modular\ConnectorDependencies\Ares\Framework\Foundation\Http\{closure}()
+#10 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /home/academia.neuronacomercial.com/academia.neuronacomercial.com.ar/wp-cron.php(191): do_action_ref_array()
+#13 {main}  
